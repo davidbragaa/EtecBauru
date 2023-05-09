@@ -19,7 +19,7 @@ export default function  Welcome(){
         <View style={styles.container}>
             <View style={styles.containerLogo}>
                 <Animatable.Image
-                    animation="flipInYr"
+                    animation="flipInY"
                     source ={require('../../assets/GoThec.png')}
                     style={{width: '100%' }}
                     resizeMod="contain"
@@ -50,12 +50,12 @@ export default function  Welcome(){
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'gray',
+        backgroundColor: '#a1a1a1',
     },
 
     containerLogo:{
         flex:2,
-        backgroundColor: 'blue',
+        backgroundColor: '#120a8f',
         justifyContent: 'center',
         alignIntes: 'center'
     },

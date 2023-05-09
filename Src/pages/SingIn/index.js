@@ -44,16 +44,11 @@ export default function  SingIn(){
 
             </Animatable.View>
 
-
-
-
-
-
         </View>
     );
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     container:{
         felx: 1,
         backgroundColor:'#38a69d'
@@ -93,7 +88,7 @@ const style = StyleSheet.create({
     },
 
     button:{
-        backgroundColor: '#38S69D',
+        backgroundColor: '#38a69D',
         width: '100%',
         borderRadius: 4,
         paddingVertical: 8,

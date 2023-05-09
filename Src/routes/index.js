@@ -1,19 +1,21 @@
 
 import{createNativeStackNavigator} from '@react-navigation/native-stack'
-
-import welcome from '../pages/Welcome'
-import SingIn from '../pages/SingIn'
-
-
-
 const Stack = createNativeStackNavigator();
+
+import Welcome from '../pages/Welcome';
+import SingIn from '../pages/Singin' ;
+
+
+
+
+const stack = createNativeStackNavigator();
 
     export default function(){
         return(
             <Stack.Navigator>
                 <Stack.Screen
                     name= "Welcome"
-                    component={welcome}   
+                    component={Welcome} 
                     options={{headerShown: false}} 
                     
                 />
